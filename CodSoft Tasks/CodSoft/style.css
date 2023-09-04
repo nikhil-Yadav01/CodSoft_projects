@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left_part{
+    width: 42%;
+    height: 100%;
+    position: relative;
+}
+#lnav{
+    display: flex;
+    padding: 18px 32px;
+    justify-content: space-between;
+}
+#lnavr a{
+    margin-right: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#lnavr{
+    display: flex;
+    align-items: center;
+}
+#lnavr i{
+    color: royalblue;
+
+}
+#left_part #lcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#lcenter h1{
+    font-size: 92px;
+    font-weight: 900;
+}
+#lcenter p{
+    font-size: 18px;
+    opacity: .8;
+    line-height: 22px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+#lcenter a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 620;
+    opacity: .6;
+}
+
+#right_part{
+    width: 58%;
+    height: 100%;
+    background-color: #fff;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: yellowgreen;
+}
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664037234905-fef616c63fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b3JhbmdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+#rtopleft{
+    width: 55%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+
+}
+#rtopright{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1586788224331-947f68671cf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9yYW5nZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+@media(max-width: 500px){
+    #main{
+        flex-direction: column;
+    }
+    #main #left_part{
+        width: 100%;
+    }
+    #main #right_part{
+        width: 100%;
+    }
+}

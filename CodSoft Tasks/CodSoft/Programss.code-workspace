@@ -1,0 +1,58 @@
+{
+	"folders": [
+		{
+			"path": "../../Programs"
+		},
+		{
+			"path": "../../Patternquestions"
+		},
+		{
+			"path": "../../C++"
+		},
+		{
+			"path": "../../Arrays"
+		},
+		{
+			"path": "../../Pointers"
+		},
+		{
+			"path": "../../Recursion"
+		},
+		{
+			"path": "../../Linked List"
+		},
+		{
+			"path": "../../Resume html"
+		},
+		{
+			"path": "../../MY WEBSITE"
+		},
+		{
+			"path": "../../JS"
+		},
+		{
+			"path": "../../signup page"
+		},
+		{
+			"path": "../../Python"
+		},
+		{
+			"path": "../../strings"
+		},
+		{
+			"path": "../../Amazon Clone"
+		},
+		{
+			"path": "../../PORTFOLIO"
+		},
+		{
+			"path": "../../github"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CodSoft Tasks"
+	}
+}
